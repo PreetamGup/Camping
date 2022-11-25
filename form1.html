@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAMP: Form</title>
+    <link rel="icon" href="camplogo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <nav class="navigation">
+
+        <ul>
+            <li><img src="camplogo.jpg" alt="logo" width="100px" height="50px"></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="search">
+            </div>
+
+        </ul>
+
+    </nav>
+</head>
+
+<body>
+    <div class="form1" >
+        <h1 style="text-align: center;">Fill the Form Below</h1>
+        <form action="" method="post">
+
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id="name"><br><br>
+
+            <label for="choose_location">Your Desired Location</label><br>
+            <select name="choose_location" id="choose_location" >
+                <option value="Mumbai and Pune">Mumbai and Pune</option>
+                <option value="Goa">Goa</option>    
+                <option value="Panchmarhi">Panchmarhi</option>
+                <option value="Rishikesh">Rishikesh</option>
+                <option value="Leh and Ladakh">Leh and Ladakh</option>
+                <option value="shimla and Manali">shimla and Manali</option>
+                <option value="Jaisalmer">Jaisalmer</option>
+                <option value="Sonmarg">Sonmarg</option>
+                <option value="Kohima">Kohima</option>
+            
+            </select><br><br>
+            
+            <label for="address">Address</label><br>
+            <textarea name="address" id="address" cols="50" rows="5"></textarea><br><br>
+            <!-- <input type="text" name="address" id="address"><br><br> -->
+
+            <label for="contact">Contact No.</label><br>
+            <input type="number" id="contact" name="contact" maxlength="10"><br><br>
+
+            <label for="type">Type</label><br>
+            <select name="type" id="type"  >
+                <option value="Individual">Individual</option>
+                <option value="Family">Family</option>    
+                <option value="Friends">Friends</option>
+            </select><br><br>
+            
+            <label for="person">No. of person</label><br>
+            <input type="number" id="person" name="person"><br><br>
+
+            <button type="submit" id="submit">Submit</button>
+
+        </form>
+    </div>
+    
+
+</body>
+
+</html>

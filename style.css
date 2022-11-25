@@ -1,0 +1,156 @@
+
+
+.navigation{
+    background-color: rgb(189, 36, 36);
+    border-radius: 35px;
+    margin: 5px 60px;
+    /* position: relative; */
+    
+}
+.navigation ul{
+    overflow: auto;
+}
+.navigation li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+    
+}
+
+.navigation li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.navigation li a:hover{
+    color: black;
+}
+
+.search{
+    float: right;
+    padding: 12px 75px;
+}
+
+.search input{
+    border: black solid 1px;
+    border-radius: 5px;
+}
+
+body{
+    /* background-color: lightskyblue; */
+    background-image: url(https://bragpacker.com/wp-content/uploads/2019/12/camping-3893587_640.jpg);
+    background-size: cover;
+}
+.mainBody{
+    display: flex;
+    justify-content: center;
+
+    /* background-color: magenta; */
+}
+
+header{
+    text-align: center;
+}
+
+aside{
+    
+    border: solid black;
+    padding: 1px 5px ;
+    width: 50%;
+    
+}
+
+div{
+    margin: 10px 70px;
+}
+
+main{
+    border: solid red;
+   
+}
+
+table{
+   padding-left: 60px;
+   padding-right: 50px;
+   border-spacing: 20px;
+}
+
+tr{
+    text-align: center;
+}
+
+#p1, #p2, #p3{
+    padding-left: 60px;
+    padding-right: 50px;
+    font-weight: bold;
+}
+#p2{
+    display: flex;
+}
+
+
+#button{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#btn{
+   background-color: rgb(78, 177, 25);
+   color: black;
+   border-color:black;
+   border-radius: 20px;
+   padding: 10px 50px;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+#btn:hover{
+    background-color: black;
+    color: green;
+    border-color: rgb(78, 177, 25);
+    border-radius: 20px;
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: 600;
+ }
+.form1{
+    background-color: rgb(182, 238, 238);
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+input,select, textarea{
+    border-radius: 5px;
+    border: black solid 1px;
+}
+
+@media only screen and (max-width:590px) {
+    .mainBody{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        /* background-color: rgb(60, 0, 255); */
+    }
+    .search{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1160px) {
+    .search{
+        display: none;
+    }
+}
+
+
+
+
+
+
+

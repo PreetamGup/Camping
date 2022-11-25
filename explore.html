@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <link rel = "icon" href = "camplogo.jpg"  type = "image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <nav class="navigation">
+        
+        <ul>
+            <li><img src="camplogo.jpg" alt="logo" width="100px" height="50px"></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="search">
+            </div>
+
+        </ul>
+
+    </nav>
+
+    <style>
+        .location{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            /* justify-content: center; */
+           
+        }
+        
+        .tdiv{
+            margin: 10px 20px;
+        }
+
+        @media only screen and (min-width:426px) and (max-width:1024px){
+            .location{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto auto auto;
+            /* justify-content: center; */
+            }
+        }
+
+        @media only screen and  (max-width:425px){
+            .location{
+            display: grid;
+            grid-template-columns: auto ;
+            grid-template-rows: repeat(9,auto) ;
+            /* justify-content: center; */
+           
+        }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Best place for camping in India</h1>
+    </header>
+    <div class="mainBody">
+
+        <main>
+            <p id="p1"><b>Are u bored with your life. Want some adventure? Then pack your bag and 
+                select the best camping area near by. Below are the best location where 
+                you can spend your weekends with friend and family.
+               </b>
+            </p>
+            <br>
+            <section id="p4" style="text-align: center ;"><h3 style="text-align: center ;">Choose Your Location And Fill The Form Below</h3>
+               
+                <div class="location">
+                    <div class="tdiv"><img src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,dpr_1.0,f_auto,fl_progressive.strip_profile,g_center,h_450,q_auto,w_753/v1/filestore/fj72o38rcpficg7wf58or5127auw_WhatsApp%20Image%202021-09-30%20at%2012.07.28%20PM%20%281%29.jpeg" 
+                        width="300px" height="200px" alt="Rishikesh Camping"><br><b>Rishikesh</b></div>
+                    <div class="tdiv"><img src="https://images.thrillophilia.com/image/upload/s--zgiizJWO--/c_fill,g_auto,h_600,q_auto,w_975/f_auto,fl_strip_profile/v1/images/photos/000/205/092/original/1585710578_snow-trails-camp.454.jpg.jpg?1585710575" 
+                        width="300px" height="200px" alt="Goa Camp"><br> <b>Shimla and Manali</b></div>
+                    <div class="tdiv"><img src="https://www.holidify.com/images/cmsuploads/compressed/7727384446_40dc613114_z_20190213102605.jpg" 
+                        width="300px" height="200px" alt=" leh and Ladakh"><br><b> Leh and Ladakh</b></div>
+                
+
+                    <div class="tdiv"><img src="https://www.flynote.com/blog/wp-content/uploads/camping.jpg"
+                    width="300px" height="200px" alt="Mumbai Camping"><br><b>Mumabi and Pune</b></div>
+                    <div class="tdiv"><img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2019/11/Cola-Beach_14th-nov.jpg"  
+                    width="300px" height="200px" alt="Goa Camp"><br><b>Goa</b></div>
+                    <div class="tdiv"><img src="https://images.thrillophilia.com/image/upload/s---x2ijYeQ--/c_fill,g_center,h_460,q_auto,w_768/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/131/755/original/1537270576_shutterstock_574973200.jpg.jpg" 
+                    width="300px" height="200px" alt=" Pachmarhi"><br><b>Pachmarhi</b></div>
+
+                
+                    <div class="tdiv"><img src="https://blog.weekendthrill.com/wp-content/uploads/2016/07/070816_1023_51BestCampi26.jpg" 
+                        width="300px" height="200px" alt="Jaisalmer Camping"><br><b>Jaisalmer</b></div>
+                    <div class="tdiv"><img src="https://blog.weekendthrill.com/wp-content/uploads/2016/07/070816_1023_51BestCampi9.jpg"  
+                        width="300px" height="200px" alt="Sonmarg Camp"><br><b>Sonmarg</b></div>
+                    <div class="tdiv"><img src="https://blog.weekendthrill.com/wp-content/uploads/2016/07/070816_1023_51BestCampi12.jpg"  
+                        width="300px" height="200px" alt=" Kohima"><br><b>Kohima</b></div>
+
+                
+                </div>
+                               
+            </section>
+
+            <div id="button">
+                <button onclick="window.location.href='form.html'" id="btn">Form</button>
+            </div>
+
+                
+        </main>
+        <aside>
+            <h2>Top place to visit</h2>
+            <ul>
+                <li>Delhi</li>
+                <li>Mumbai</li>
+                <li>Pune</li>
+            </ul>
+        </aside>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
